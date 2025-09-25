@@ -51,25 +51,25 @@
 
 ![メインダッシュボード](./screenshots/main-dashboard.png)
 
-### 📊 グラフビュー  
-*人物関係と作戦の可視化 - 山崎健二を中心とした関係性を表示*
-
-![グラフビュー](./screenshots/graph-view.png)
-
 ### 📝 アクティブオペレーションログ
 *リアルタイムの作戦状況監視 - Dataviewクエリで進行中ミッションを表示*
 
-![アクティブオペレーションログ](./screenshots/active-operations-log.png)
+![アクティブオペレーションログ](./screenshots/graph-view.png)
 
 ### 👤 人物ファイル
 *ターゲットの詳細情報管理 - 山崎健二の詳細なプロファイル*
 
-![人物ファイル](./screenshots/person-file.png)
+![人物ファイル](./screenshots/active-operations-log.png)
 
 ### 🎬 スパイ端末の雰囲気
 *ハッカー映画のような没入感 - 3ペイン表示で情報を統合管理*
 
-![スパイ端末の雰囲気](./screenshots/spy-terminal-atmosphere.png)
+![スパイ端末の雰囲気](./screenshots/person-file.png)
+
+### 📊 グラフビュー
+*人物関係と作戦の可視化 - 山崎健二を中心とした関係性を表示*
+
+![グラフビュー](./screenshots/spy-terminal-atmosphere.png)
 
 </div>
 
