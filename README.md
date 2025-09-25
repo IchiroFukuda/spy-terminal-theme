@@ -1,8 +1,8 @@
-# Spy Terminal Theme
+# Spy Terminal
 
 <div align="center">
 
-![Spy Terminal Theme](https://img.shields.io/badge/Theme-Spy%20Terminal-00ff00?style=for-the-badge&labelColor=1a1a1a)
+![Spy Terminal](https://img.shields.io/badge/Theme-Spy%20Terminal-00ff00?style=for-the-badge&labelColor=1a1a1a)
 ![Version](https://img.shields.io/badge/Version-1.0.0-00aa00?style=for-the-badge&labelColor=1a1a1a)
 ![Obsidian](https://img.shields.io/badge/Obsidian-Compatible-7c3aed?style=for-the-badge&labelColor=1a1a1a)
 
@@ -85,7 +85,7 @@
 
 ### For Obsidian
 
-1. Download the `spy-terminal-theme.css` file
+1. Download the `theme.css` file
 2. Go to Obsidian Settings → Appearance → Themes → Custom CSS
 3. Copy and paste the file contents
 4. Enable the theme
