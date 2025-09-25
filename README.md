@@ -1,4 +1,4 @@
-# スパイ端末風テーマ (Spy Terminal Theme)
+# Spy Terminal Theme
 
 <div align="center">
 
@@ -6,124 +6,122 @@
 ![Version](https://img.shields.io/badge/Version-1.0.0-00aa00?style=for-the-badge&labelColor=1a1a1a)
 ![Obsidian](https://img.shields.io/badge/Obsidian-Compatible-7c3aed?style=for-the-badge&labelColor=1a1a1a)
 
-**Obsidianやその他のMarkdownエディタ用のスパイ映画風端末テーマ**
+**A spy movie-style terminal theme for Obsidian and other Markdown editors**
 
-*ハッカー映画のような雰囲気でコーディングとメモ取りを楽しもう*
+*Experience coding and note-taking with the atmosphere of hacker movies*
 
 </div>
 
-## 🎬 テーマの特徴
+## 🎬 Theme Features
 
-### 🖥️ **本格的な端末体験**
-- **モノスペースフォント**: SFMono-Regular、Roboto Mono、Ubuntu Monoなどの端末風フォント
-- **16px フォントサイズ**: 読みやすく、長時間の作業でも疲れにくい設定
+### 🖥️ **Authentic Terminal Experience**
+- **Monospace Fonts**: Terminal-style fonts like SFMono-Regular, Roboto Mono, Ubuntu Mono
+- **16px Font Size**: Easy to read and comfortable for long work sessions
 
-### 🌙 **ダークテーマデザイン**
-- **濃いグレー/黒の背景**: 目に優しい暗い背景色
-- **3段階の背景色**: プライマリ、セカンダリ、ターシャリの背景で階層を表現
+### 🌙 **Dark Theme Design**
+- **Dark Gray/Black Background**: Eye-friendly dark background colors
+- **Three-tier Background**: Primary, secondary, and tertiary backgrounds for hierarchy
 
-### 💚 **クラシックな緑色テキスト**
-- **メインテキスト**: 鮮やかな緑色（#00ff00）でクラシックな端末感を演出
-- **薄いテキスト**: 暗めの緑色（#008800）で階層を表現
-- **エラーテキスト**: 赤色（#ff0000）で重要な情報を強調
+### 💚 **Classic Green Text**
+- **Main Text**: Vibrant green (#00ff00) for classic terminal feel
+- **Muted Text**: Darker green (#008800) for hierarchy
+- **Error Text**: Red (#ff0000) for important information
 
-### ✨ **視覚効果**
-- **グローエフェクト**: リンクやタスクブロックに光る効果でスパイ感を演出
-- **テキストシャドウ**: リンクに微細な光る効果を追加
-- **ボックスシャドウ**: タスクブロックに緑色のグロー効果
+### ✨ **Visual Effects**
+- **Glow Effects**: Glowing effects on links and task blocks for spy atmosphere
+- **Text Shadow**: Subtle glowing effects on links
+- **Box Shadow**: Green glow effects on task blocks
 
-### ☑️ **インタラクティブ要素**
-- **カスタムチェックボックス**: 緑色のチェックボックスでタスク管理
-- **シアン系リンク**: リンクをシアン色（#00ccff）で目立たせる
-- **選択範囲**: 緑色の半透明でテキスト選択を強調
+### ☑️ **Interactive Elements**
+- **Custom Checkboxes**: Green checkboxes for task management
+- **Cyan Links**: Links highlighted in cyan (#00ccff)
+- **Text Selection**: Green semi-transparent text selection
 
-### 📝 **コードブロック**
-- **暗い背景**: 非常に暗い背景（#0d0d0d）でコードを際立たせる
-- **緑色テキスト**: コード内のテキストも緑色で統一
-- **タスククエリ**: 特別なタスクブロック用のスタイリング
+### 📝 **Code Blocks**
+- **Dark Background**: Very dark background (#0d0d0d) to make code stand out
+- **Green Text**: Code text also in green for consistency
+- **Task Queries**: Special styling for task blocks
 
-## 📸 スクリーンショット
+## 📸 Screenshots
 
 <div align="center">
 
-### 🎯 メインダッシュボード
-*機密情報の統合管理画面 - 認証完了と優先度の高い指令を表示*
+### 🎯 Main Dashboard
+*Integrated management of classified information - Authentication complete and high-priority directives*
 
-![メインダッシュボード](./screenshots/main-dashboard.png)
+![Main Dashboard](./screenshots/main-dashboard.png)
 
-### 📝 アクティブオペレーションログ
-*リアルタイムの作戦状況監視 - Dataviewクエリで進行中ミッションを表示*
+### 📝 Active Operations Log
+*Real-time mission status monitoring - Dataview queries for ongoing missions*
 
-![アクティブオペレーションログ](./screenshots/graph-view.png)
+![Active Operations Log](./screenshots/graph-view.png)
 
-### 👤 人物ファイル
-*ターゲットの詳細情報管理 - 山崎健二の詳細なプロファイル*
+### 👤 Person File
+*Target detailed information management - Detailed profile of Kenji Yamazaki*
 
-![人物ファイル](./screenshots/active-operations-log.png)
+![Person File](./screenshots/active-operations-log.png)
 
-### 🎬 スパイ端末の雰囲気
-*ハッカー映画のような没入感 - 3ペイン表示で情報を統合管理*
+### 🎬 Spy Terminal Atmosphere
+*Immersive hacker movie experience - 3-pane display for integrated information management*
 
-![スパイ端末の雰囲気](./screenshots/person-file.png)
+![Spy Terminal Atmosphere](./screenshots/person-file.png)
 
-### 📊 グラフビュー
-*人物関係と作戦の可視化 - 山崎健二を中心とした関係性を表示*
+### 📊 Graph View
+*Personnel relationships and operations visualization - Kenji Yamazaki centered relationships*
 
-![グラフビュー](./screenshots/spy-terminal-atmosphere.png)
+![Graph View](./screenshots/spy-terminal-atmosphere.png)
 
 </div>
 
-### 🌟 スクリーンショットの特徴
+### 🌟 Screenshot Features
 
-- **🖥️ 本格的な端末体験**: モノスペースフォントと緑色テキストでクラシックな端末感を再現
-- **📊 データ可視化**: グラフビューで人物関係や作戦の全体像を把握
-- **📝 リアルタイム監視**: タスク管理とDataviewクエリで作戦状況を追跡
-- **👤 情報管理**: 人物ファイルでターゲットの詳細情報を体系的に管理
-- **🎬 没入感**: スパイ映画のような雰囲気でコーディングとメモ取りを楽しめる
+- **🖥️ Authentic Terminal Experience**: Classic terminal feel with monospace fonts and green text
+- **📊 Data Visualization**: Graph view for understanding personnel relationships and operations
+- **📝 Real-time Monitoring**: Task management and Dataview queries for mission tracking
+- **👤 Information Management**: Person files for systematic target information management
+- **🎬 Immersive Experience**: Enjoy coding and note-taking with spy movie atmosphere
 
-## 🚀 インストール方法
+## 🚀 Installation
 
-## インストール方法
+### For Obsidian
 
-### Obsidianの場合
+1. Download the `spy-terminal-theme.css` file
+2. Go to Obsidian Settings → Appearance → Themes → Custom CSS
+3. Copy and paste the file contents
+4. Enable the theme
 
-1. `spy-terminal-theme.css` ファイルをダウンロード
-2. Obsidianの設定 → 外観 → テーマ → カスタムCSS に移動
-3. ファイルの内容をコピー&ペースト
-4. テーマを有効化
+### For Other Markdown Editors
 
-### その他のMarkdownエディタ
+Place the CSS file in the appropriate location and load it as custom CSS in your editor's settings.
 
-CSSファイルを適切な場所に配置し、エディタの設定でカスタムCSSとして読み込んでください。
+## 🎨 Customization
 
-## カスタマイズ
-
-テーマは以下のCSS変数でカスタマイズ可能です：
+The theme can be customized using the following CSS variables:
 
 ```css
---background-primary: #1a1a1a;    /* メイン背景色 */
---text-normal: #00ff00;           /* 通常テキスト色 */
---link-color: #00ccff;            /* リンク色 */
---text-error: #ff0000;            /* エラーテキスト色 */
+--background-primary: #1a1a1a;    /* Main background color */
+--text-normal: #00ff00;           /* Normal text color */
+--link-color: #00ccff;            /* Link color */
+--text-error: #ff0000;            /* Error text color */
 ```
 
-## 💝 支援のお願い
+## 💝 Support
 
-このテーマが気に入っていただけましたら、コーヒー一杯分の支援をいただけると大変嬉しいです！
+If you like this theme, I would be very happy if you could support me with a cup of coffee!
 
 <div align="center">
 
 [![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-☕%20Support%20Me-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=white&labelColor=000000)](https://buymeacoffee.com/saeli)
 
-**あなたの支援が、より良いテーマ開発の原動力になります！**
+**Your support drives better theme development!**
 
 </div>
 
-## 📄 ライセンス
+## 📄 License
 
 MIT License
 
-## 👨‍💻 作者
+## 👨‍💻 Author
 
 **IchiroFukuda**
 
@@ -134,6 +132,6 @@ MIT License
 
 <div align="center">
 
-**⭐ このリポジトリをスターして、スパイ端末風のコーディング体験を楽しんでください！ ⭐**
+**⭐ Star this repository and enjoy the spy terminal coding experience! ⭐**
 
 </div>
