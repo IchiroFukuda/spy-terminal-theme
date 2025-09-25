@@ -1,0 +1,67 @@
+/* -- スパイ端末風テーマ -- */
+
+/* 全体のフォントをモノスペースに */
+.markdown-source-view,
+.markdown-preview-view {
+    font-family: 'SFMono-Regular', 'Roboto Mono', 'Ubuntu Mono', monospace !important; /* お好みのモノスペースフォントに */
+    font-size: 16px; /* フォントサイズ調整 */
+}
+
+/* 背景色を濃いグレー/黒に */
+body {
+    --background-primary: #1a1a1a;
+    --background-secondary: #222222;
+    --background-tertiary: #111111;
+    --text-normal: #00ff00; /* テキストを緑色に */
+    --text-muted: #008800; /* 薄いテキストを暗めの緑に */
+    --interactive-accent: #00aa00; /* ボタンなどを緑に */
+    --interactive-accent-hover: #00cc00;
+    --highlight-text: #00ff00; /* ハイライトテキストも緑に */
+    --text-highlight-bg: rgba(0, 255, 0, 0.2); /* ハイライト背景 */
+    --link-color: #00ccff; /* リンクをシアン系に */
+    --text-selection: rgba(0, 255, 0, 0.3); /* 選択範囲の色 */
+    --text-error: #ff0000;
+}
+
+/* チェックボックスの色を緑に */
+.task-list-item-checkbox {
+    border-color: #00ff00 !important;
+    background-color: transparent !important;
+}
+.task-list-item-checkbox:checked {
+    background-color: #00ff00 !important;
+    border-color: #00ff00 !important;
+}
+
+/* コードブロックの背景と文字色 */
+.theme-dark .markdown-source-view.mod-cm6 .cm-editor .cm-line:not(.cm-active),
+.markdown-preview-view code {
+    background-color: #0d0d0d !important;
+    color: #00ff00 !important;
+}
+
+/* コードブロック内のタスククエリをさらに端末っぽく */
+.markdown-preview-view .tasks-code-block {
+    background-color: #0a0a0a;
+    border: 1px solid #005500;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 255, 0, 0.5); /* グローエフェクト */
+}
+.markdown-preview-view .tasks-code-block .task-list-item {
+    color: #00ff00 !important; /* タスク項目も緑に */
+    font-family: 'SFMono-Regular', monospace;
+}
+.markdown-preview-view .tasks-code-block .task-list-item-checkbox {
+    border-color: #00ff00 !important;
+    background-color: transparent !important;
+}
+.markdown-preview-view .tasks-code-block .task-list-item-checkbox:checked {
+    background-color: #00ff00 !important;
+    border-color: #00ff00 !important;
+}
+
+/* リンクのグロー */
+.cm-link, .markdown-preview-view a {
+    text-shadow: 0 0 5px rgba(0, 255, 0, 0.3);
+}
