@@ -1,67 +1,96 @@
-/* -- スパイ端末風テーマ -- */
+/* -- Spy Terminal Theme -- */
 
-/* 全体のフォントをモノスペースに */
+/* Use CSS variables for better maintainability */
+:root {
+  --font-text-size: 16px;
+  --font-text: 'SFMono-Regular', 'Roboto Mono', 'Ubuntu Mono', monospace;
+}
+
+/* Override general variables under body */
+body {
+  --background-primary: #1a1a1a;
+  --background-secondary: #222222;
+  --background-tertiary: #111111;
+  --text-normal: #00ff00;
+  --text-muted: #008800;
+  --interactive-accent: #00aa00;
+  --interactive-accent-hover: #00cc00;
+  --highlight-text: #00ff00;
+  --text-highlight-bg: rgba(0, 255, 0, 0.2);
+  --link-color: #00ccff;
+  --text-selection: rgba(0, 255, 0, 0.3);
+  --text-error: #ff0000;
+  --font-text: var(--font-text);
+  --font-text-size: var(--font-text-size);
+}
+
+/* Override colors under .theme-dark */
+.theme-dark {
+  --background-primary: #1a1a1a;
+  --background-secondary: #222222;
+  --background-tertiary: #111111;
+  --text-normal: #00ff00;
+  --text-muted: #008800;
+  --interactive-accent: #00aa00;
+  --interactive-accent-hover: #00cc00;
+  --highlight-text: #00ff00;
+  --text-highlight-bg: rgba(0, 255, 0, 0.2);
+  --link-color: #00ccff;
+  --text-selection: rgba(0, 255, 0, 0.3);
+  --text-error: #ff0000;
+}
+
+/* Simple selectors with low specificity */
 .markdown-source-view,
 .markdown-preview-view {
-    font-family: 'SFMono-Regular', 'Roboto Mono', 'Ubuntu Mono', monospace !important; /* お好みのモノスペースフォントに */
-    font-size: 16px; /* フォントサイズ調整 */
+  font-family: var(--font-text);
+  font-size: var(--font-text-size);
 }
 
-/* 背景色を濃いグレー/黒に */
-body {
-    --background-primary: #1a1a1a;
-    --background-secondary: #222222;
-    --background-tertiary: #111111;
-    --text-normal: #00ff00; /* テキストを緑色に */
-    --text-muted: #008800; /* 薄いテキストを暗めの緑に */
-    --interactive-accent: #00aa00; /* ボタンなどを緑に */
-    --interactive-accent-hover: #00cc00;
-    --highlight-text: #00ff00; /* ハイライトテキストも緑に */
-    --text-highlight-bg: rgba(0, 255, 0, 0.2); /* ハイライト背景 */
-    --link-color: #00ccff; /* リンクをシアン系に */
-    --text-selection: rgba(0, 255, 0, 0.3); /* 選択範囲の色 */
-    --text-error: #ff0000;
-}
-
-/* チェックボックスの色を緑に */
+/* Task checkboxes - use CSS variables instead of !important */
 .task-list-item-checkbox {
-    border-color: #00ff00 !important;
-    background-color: transparent !important;
-}
-.task-list-item-checkbox:checked {
-    background-color: #00ff00 !important;
-    border-color: #00ff00 !important;
+  border-color: var(--text-normal);
+  background-color: transparent;
 }
 
-/* コードブロックの背景と文字色 */
+.task-list-item-checkbox:checked {
+  background-color: var(--text-normal);
+  border-color: var(--text-normal);
+}
+
+/* Code blocks - use CSS variables */
 .theme-dark .markdown-source-view.mod-cm6 .cm-editor .cm-line:not(.cm-active),
 .markdown-preview-view code {
-    background-color: #0d0d0d !important;
-    color: #00ff00 !important;
+  background-color: var(--background-tertiary);
+  color: var(--text-normal);
 }
 
-/* コードブロック内のタスククエリをさらに端末っぽく */
+/* Task code blocks */
 .markdown-preview-view .tasks-code-block {
-    background-color: #0a0a0a;
-    border: 1px solid #005500;
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0, 255, 0, 0.5); /* グローエフェクト */
-}
-.markdown-preview-view .tasks-code-block .task-list-item {
-    color: #00ff00 !important; /* タスク項目も緑に */
-    font-family: 'SFMono-Regular', monospace;
-}
-.markdown-preview-view .tasks-code-block .task-list-item-checkbox {
-    border-color: #00ff00 !important;
-    background-color: transparent !important;
-}
-.markdown-preview-view .tasks-code-block .task-list-item-checkbox:checked {
-    background-color: #00ff00 !important;
-    border-color: #00ff00 !important;
+  background-color: #0a0a0a;
+  border: 1px solid #005500;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 255, 0, 0.5);
 }
 
-/* リンクのグロー */
-.cm-link, .markdown-preview-view a {
-    text-shadow: 0 0 5px rgba(0, 255, 0, 0.3);
+.markdown-preview-view .tasks-code-block .task-list-item {
+  color: var(--text-normal);
+  font-family: var(--font-text);
+}
+
+.markdown-preview-view .tasks-code-block .task-list-item-checkbox {
+  border-color: var(--text-normal);
+  background-color: transparent;
+}
+
+.markdown-preview-view .tasks-code-block .task-list-item-checkbox:checked {
+  background-color: var(--text-normal);
+  border-color: var(--text-normal);
+}
+
+/* Link glow effect */
+.cm-link, 
+.markdown-preview-view a {
+  text-shadow: 0 0 5px rgba(0, 255, 0, 0.3);
 }
