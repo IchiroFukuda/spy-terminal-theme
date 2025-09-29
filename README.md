@@ -54,22 +54,22 @@
 ### 📝 Active Operations Log
 *Real-time mission status monitoring - Dataview queries for ongoing missions*
 
-![Active Operations Log](./screenshots/graph-view.png)
+![Active Operations Log](./screenshots/active-operations-log.png)
 
 ### 👤 Person File
 *Target detailed information management - Detailed profile of Kenji Yamazaki*
 
-![Person File](./screenshots/active-operations-log.png)
+![Person File](./screenshots/person-file.png)
 
 ### 🎬 Spy Terminal Atmosphere
 *Immersive hacker movie experience - 3-pane display for integrated information management*
 
-![Spy Terminal Atmosphere](./screenshots/person-file.png)
+![Spy Terminal Atmosphere](./screenshots/spy-terminal-atmosphere.png)
 
 ### 📊 Graph View
 *Personnel relationships and operations visualization - Kenji Yamazaki centered relationships*
 
-![Graph View](./screenshots/spy-terminal-atmosphere.png)
+![Graph View](./screenshots/graph-view.png)
 
 </div>
 
